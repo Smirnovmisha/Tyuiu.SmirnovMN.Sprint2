@@ -17,6 +17,7 @@ namespace Tyuiu.SmirnovMN.Sprint1.Task1.V8.Test
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
             Assert.AreEqual(wait, res);
+
         }
     }
 }
