@@ -1,9 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.SmirnovMN.Sprint1.Task1.V8.Lib;
+using Tyuiu.SmirnovMN.Sprint2.Task2.V15.Lib;
 
-
-namespace Tyuiu.SmirnovMN.Sprint1.Task1.V8.Test
+namespace Tyuiu.SmirnovMN.Sprint2.Task2.V15.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,10 +11,12 @@ namespace Tyuiu.SmirnovMN.Sprint1.Task1.V8.Test
         public void ValidCheckDotInShadedArea()
         {
             DataService ds = new DataService();
-            int x = 3;
-            int y = 5;
+            int x = 4;
+            int y = 4;
+
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
+
             Assert.AreEqual(wait, res);
         }
     }
