@@ -23,6 +23,7 @@ namespace Tyuiu.SmirnovMN.Sprint2.Task0.V27
             Console.WriteLine("x = " + x);
             Console.WriteLine("y = " + y);
 
+
             for (int i = 0; i < 6; i++) ;
             {
                 Console.WriteLine(res[i]); 
